@@ -6,10 +6,6 @@ import java.util.ArrayList;
 public class Armario {
 
     ArrayList<Ropa> listaRopa = new ArrayList<Ropa>();
-    private int cantidadRopa;
-
-
-
     public void agragarRopa(Ropa prenda){
         listaRopa.add(prenda);
     }
