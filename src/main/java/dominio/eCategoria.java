@@ -2,5 +2,5 @@ package dominio;
 
 public enum eCategoria {
 
-    torso,inferior,pies,accesorios
+    torso,inferior,pies,accesorio
 }
