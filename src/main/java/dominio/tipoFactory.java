@@ -10,13 +10,13 @@ public class tipoFactory {
 
 
     static public TipoPrenda buzo(){
-        return new TipoPrenda(eTipoPrenda.buzo,eCategoria.torso);
+        return new TipoPrenda(eTipoPrenda.buzo,eCategoria.torsoAbrigo);
 
     }
 
 
     static public TipoPrenda campera(){
-        return new TipoPrenda(eTipoPrenda.campera,eCategoria.torso);
+        return new TipoPrenda(eTipoPrenda.campera,eCategoria.torsoAbrigo);
 
     }
 

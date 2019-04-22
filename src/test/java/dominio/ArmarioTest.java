@@ -25,9 +25,9 @@ public class ArmarioTest {
     public void init() throws CreadorRopaException{
         remera = new Ropa(tipoFactory.remera(),eColor.rojo);
         jean = new Ropa(tipoFactory.jean(),eColor.azul);
+        pantalon = new Ropa(tipoFactory.pantalon(),eColor.negro);
         campera = new Ropa(tipoFactory.campera(),eColor.amarillo);
         gorra = new Ropa(tipoFactory.accesorio(),eColor.negro);
-        pantalon = new Ropa(tipoFactory.pantalon(),eColor.negro);
         armario = new Armario();
         armario.agregarRopa(remera);
         armario.agregarRopa(jean);
@@ -45,6 +45,6 @@ public class ArmarioTest {
     public void CantidadDeSugerenciasCorrectas() throws Exception{
         Ropa zapatos = new Ropa(tipoFactory.zapatos(),eColor.negro);
         armario.agregarRopa(zapatos);
-        assertEquals(4,armario.sugerenciasDeAtuendos().size());
+        assertEquals(2,armario.sugerenciasDeAtuendos().size());
     }
 }

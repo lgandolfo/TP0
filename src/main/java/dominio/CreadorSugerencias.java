@@ -30,6 +30,7 @@ public class CreadorSugerencias {
 
         List<Set<Ropa>> listasSeparadas = new ArrayList<>();
         listasSeparadas.add(filtroCategoria(prendas,eCategoria.torso));
+        listasSeparadas.add(filtroCategoria(prendas,eCategoria.torsoAbrigo));
         listasSeparadas.add(filtroCategoria(prendas,eCategoria.inferior));
         listasSeparadas.add(filtroCategoria(prendas,eCategoria.pies));
         listasSeparadas.add(filtroCategoria(prendas,eCategoria.accesorio));
